@@ -10,7 +10,24 @@
 $(window).scroll(function(){
    $('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
 });
-
+document.getElementById("ourhome").onclick = function () {
+   location.href = "#home";
+};
+document.getElementById("aboutus").onclick = function () {
+   location.href = "#about";
+};
+document.getElementById("myportfolio").onclick = function () {
+   location.href = "#portfolio";
+};
+document.getElementById("myskills").onclick = function () {
+   location.href = "#skills";
+};
+document.getElementById("myexperience").onclick = function () {
+   location.href = "#experience";
+};
+document.getElementById("contactme").onclick = function () {
+   location.href = "#contact";
+};
 // Wrap every letter in a span
 var textWrapper = document.querySelector('.ml6 .letters');
 textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
@@ -142,8 +159,3 @@ setTimeout(function() {
 	});
 
 });
-
-
-
-
-
