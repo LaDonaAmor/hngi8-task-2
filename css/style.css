@@ -103,6 +103,7 @@ letter-spacing: 2.5px;
 margin: 0 auto;
 z-index: 100;
 position: fixed;
+cursor: pointer;
 box-shadow: 0 .125rem .25rem rgba(0,0,0,.075) !important;
 left: 0;
 top: 0;
@@ -148,7 +149,6 @@ transition: color .2s ease-in-out;
 }
 ul#nav li a:active { background-color: transparent !important; }
 ul#nav li.current a { color: #F06000; }
-ul#nav li a:hover { color: #F06000; }
 @-webkit-keyframes animateWave {
 0% {
 transform: scale(1, 0);
@@ -409,7 +409,7 @@ font-size: 21px;
 line-height: 60px;
 border-radius: 100%;
 }
-#go-top a:hover { background-color: white }
+#go-top a:hover { background-color: #525252 }
 /* Animations */
 .ml6 {
 position: relative;
